@@ -1,8 +1,8 @@
 {
     "qasm_list": ["benchmark/toy_example/toy.qasm"],
     "zac_setting": [{
-        "arch_spec": "hardware_spec/toy_architecture_me.json",
-        "dependency": true,
+        "arch_spec": "hardware_spec/toy_architecture.json",
+        "dependency": true, .\ex
         "dir": "result/technique_test/",
         "routing_strategy": "maximalis_sort",
         "trivial_placement": true,
